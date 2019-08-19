@@ -19,8 +19,4 @@ Route::get('/part-1', function () {
     return view('part_1');
 });
 
-Route::get('/part-2', function () {
-    return redirect('/share');
-});
-
 Route::resource('share', 'ShareSheetController');
