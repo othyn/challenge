@@ -73,3 +73,5 @@ Done!
 Run `$ vagrant up`. The first time the box is used, it will download the source vagrant box which may take some time. After it's finished its boot and provision, you can navigate to `challenge.test` in your browser.
 
 [Laravel Mix](https://laravel.com/docs/5.8/mix) powers client side asset development, run `$ yarn dev` to compile assets one off without minification or production rules, or run a watcher with `$ yarn watch` - although this doesn't always pickup sass changes.
+
+To see emails being sent, the application uses the log driver, which logs them to the bottom of Laravel's log output. I could have used PHP's inbuilt mail function, or a testing API service (theres loads around), but this way it dumps the email - which would send if you replace the driver in your .env file - to the log at `/storage/logs/*.log`.
