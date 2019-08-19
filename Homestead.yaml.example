@@ -1,0 +1,26 @@
+ip: 192.168.1.100
+memory: 512
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: ~/git/challenge
+        to: /home/vagrant/code
+sites:
+    -
+        map: challenge.test
+        to: /home/vagrant/code/public
+databases:
+    - challenge
+features:
+    -
+        mariadb: false
+    -
+        ohmyzsh: true
+    -
+        webdriver: false
+name: challenge
+hostname: challenge
