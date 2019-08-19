@@ -9,3 +9,31 @@
 .red {
     color: red;
 }
+
+.alert {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #0000;
+    border-radius: .25rem;
+    animation: alert-flash 3s forwards;
+    z-index: 99;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+@keyframes alert-flash {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+        z-index: 0;
+    }
+}
