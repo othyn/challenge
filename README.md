@@ -14,7 +14,7 @@ This is the repo for the specified code challenge. Not including keywords as to 
 To see a complete plan of the project, there is a markdown plan writeup located in the [plan directory](/plan/PLAN.md). This will contain the intentions of the project, even if they were not achieved within a reasonable time frame.
 
 ## Setup
-The project runs using a per project installation of Homestead. [Instructions on installation and setup](https://laravel.com/docs/5.8/homestead), and more specifically the [per-project installation](https://laravel.com/docs/5.8/homestead#per-project-installation) are on Laravel's website, although I'll cover the step-by-step process below for getting this up and running for this project.
+The project runs using a per project installation of Homestead. [Instructions on installation and setup](https://laravel.com/docs/5.8/homestead), and more specifically the [per-project installation](https://laravel.com/docs/5.8/homestead#per-project-installation) are on Laravel's website, although I'll cover the step-by-step process below for getting this up and running for this project. You can find the required database connection information on that documentation.
 
 ### Prerequisites
 These are the underlying requirements of the system in order to develop for the project, assuming you're on macOS. Linux installation steps align almost directly, with most packages either being preconfigured or easily available through your inbuilt distro's package manager such as apt or yum. Windows installion is a little different, but most steps are replaced with package auto-installers instead.
