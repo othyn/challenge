@@ -4,7 +4,7 @@ This is the repo for the specified code challenge. Not including keywords as to 
 ## Table of contents
 * [Code challenge](#codechallenge)
 * [Table of contents](#table-of-contents)
-* [Plan & Debrief](#plan&debrief)
+* [Plan & Debrief](#plan--debrief)
 * [Setup](#setup)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
