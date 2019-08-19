@@ -80,3 +80,18 @@ Create this form and an associated database schema; store all the appropriate in
 - On submission, validation is ensured and data is inserted into the database, into the appropriate fields via the Model ORM layer. Appropriate user feedback is given once this is complete, or fails.
 - As for email sending, send alongside time of submission. A queue system can be implemented easily utilising Laravel’s inbuilt Mail handler. PHP’s inbuilt mail function could be used, in this instance utilising Laravel’s Mail handler will allow the driver to be set to Log for the purposes of this task. In production, this can be changed out in the projects environment file to a service of the projects requirements, such as AWS SES.
 - For production systems, generating SSL certs through LetsEncrypt, installing a LAMP stack, hardening the box, setting up CI/CD processes, setting up firewalls, load balancing, asset uploads to CDN, caching, etc. can then all be setup through a service of choice. AWS, DigitalOcean, CloudFlare, etc.
+
+# Quick Debrief Post Task
+Overall I think the project went well. There are certainly areas of improvement, mainly being more stict with myself in terms of time management when there aren't external factors at play. I am happy with the application design and quality of code developed, following modern design principals along a logical path to help assist with a maintainable project for future developments.
+
+## 3 areas of improvement
+- Focused on the visual more than the functional, I should have approached the task from the side of getting the base functionality working. Starting with Part 2 and working then onto Part 1.
+- Testing wasn't included as I was rapidly prototyping. Unit tests could easily have been written for all aspects as outlined in the plan, even using the Mail faker fasacde to spoof mail sending and verify, and also hooking into requests to test the validation. Something that may have taken another 15 minutes.
+- A more strict time plan. Something in which I plan for my junior team day-in-day-out, and utlise my work calendar for my personal time, is time planning. Mapping it to this task should have been habitual at this point, but something tripped me up. Not my usual way, but a mistake nontheless. Taking the time to plan time taking more accurately is a necessity, as was this planning document.
+
+## 3 wins
+- I think the overall finished products are completed to high functionality and inline with design requirements, with all modern features, maintainability, secure by nature and production ready code.
+- I work best under pressure, so I certainly enjoyed the task and its tight limitations, allowed me to excersize my ability whilst also assessing baseline requirements and goaling those. Allowed for skill reflection in which areas that I have assessed as weaker I can work on building.
+- More experience with Laravel's Mail handler was fun, reading up on the documentation and implementing as I go was a doddle and enjoyable to be in that partial experimental phase of working. Having a plan in my head of implementation, but it clicking into place during development was a feeling I always enjoy achieving. Always room for learning!
+
+Overall, an enjoyable, fun task!
