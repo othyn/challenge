@@ -3,10 +3,12 @@ Recreate the tasks outlined in the referenced images, as defined by their outlin
 
 ## Part 1
 ![Part 1 Reference Image](https://github.com/othyn/challenge/blob/master/plan/assets/part_1.png)
+
 Create a simple page layout to the best standards you know.
 
 ## Part 2
 ![Part 2 Reference Image](https://github.com/othyn/challenge/blob/master/plan/assets/part_2.png)
+
 Create this form and an associated database schema; store all the appropriate information and send an email.
 
 # Initial Impressions/Scoping
@@ -53,7 +55,7 @@ Create this form and an associated database schema; store all the appropriate in
 # Derived Task list
 
 ## Setup
-- Initialise a new git repo on GitHub to track the project.
+- Initialise a new git repo on GitHub to track the project. Working from master branch as feature branch, no requirement for feature splitting.
 - Initialise a new Laravel project named appropriately.
 - Initial git commit to initialise tracked files.
 - Asset build definition through web pack, creating the base page template which houses assets and base structure, enable cache busting.
