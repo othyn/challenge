@@ -86,7 +86,7 @@ Overall I think the project went well. There are certainly areas of improvement,
 
 ## 3 areas of improvement
 - Focused on the visual more than the functional, I should have approached the task from the side of getting the base functionality working. Starting with Part 2 and working then onto Part 1.
-- Testing wasn't included as I was rapidly prototyping. Unit tests could easily have been written for all aspects as outlined in the plan, even using the Mail faker fasacde to spoof mail sending and verify, and also hooking into requests to test the validation. Something that may have taken another 15 minutes.
+- Testing wasn't included as I was rapidly prototyping. Unit tests, especially under TDD, could easily have been written for all aspects as outlined in the plan, even using the Mail faker fasacde to spoof mail sending and verify, and also hooking into requests to test the validation. Something that may have taken another 15 minutes, that should have been factored in.
 - A more strict time plan. Something in which I plan for my junior team day-in-day-out, and utlise my work calendar for my personal time, is time planning. Mapping it to this task should have been habitual at this point, but something tripped me up. Not my usual way, but a mistake nontheless. Taking the time to plan time taking more accurately is a necessity, as was this planning document.
 
 ## 3 wins
