@@ -2,11 +2,11 @@
 Recreate the tasks outlined in the referenced images, as defined by their outlined spec counterpart.
 
 ## Part 1
-![Part 1 Reference Image](https://raw.githubusercontent.com/othyn/challenge/master/plan/assets/part_1.png)
+![Part 1 Reference Image](https://github.com/othyn/challenge/blob/master/plan/assets/part_1.png)
 Create a simple page layout to the best standards you know.
 
 ## Part 2
-![Part 2 Reference Image](https://raw.githubusercontent.com/othyn/challenge/master/plan/assets/part_2.png)
+![Part 2 Reference Image](https://github.com/othyn/challenge/blob/master/plan/assets/part_2.png)
 Create this form and an associated database schema; store all the appropriate information and send an email.
 
 # Initial Impressions/Scoping
