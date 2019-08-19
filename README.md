@@ -11,7 +11,7 @@ This is the repo for the specified code challenge. Not including keywords as to 
 * [Development](#development)
 
 ## Plan
-To see a complete plan of the project, there is a markdown plan writeup located in the [plan directory](/plan/PLAN.md).
+To see a complete plan of the project, there is a markdown plan writeup located in the [plan directory](/plan/PLAN.md). This will contain the intentions of the project, even if they were not achieved within a reasonable time frame.
 
 ## Setup
 The project runs using a per project installation of Homestead. [Instructions on installation and setup](https://laravel.com/docs/5.8/homestead), and more specifically the [per-project installation](https://laravel.com/docs/5.8/homestead#per-project-installation) are on Laravel's website, although I'll cover the step-by-step process below for getting this up and running for this project.
