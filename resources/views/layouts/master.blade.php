@@ -3,7 +3,9 @@
     @include ('layouts.header')
 
     <body class="w-100 h-100">
-        @yield ('main-content')
+        <main class="w-100 h-100">
+            @yield ('main-content')
+        </main>
 
         @include ('layouts.footer')
     </body>
