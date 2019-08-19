@@ -15,6 +15,9 @@ class CreateShareSheetsTable extends Migration
     {
         Schema::create('share_sheets', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('customer_name'); // Equivalent of varchar(255) not null
+            $table->string('friend_name'); // Equivalent of varchar(255) not null
+            $table->string('friend_email'); // Equivalent of varchar(255) not null
             $table->timestamps();
         });
     }
