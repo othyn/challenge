@@ -59,6 +59,7 @@ Create this form and an associated database schema; store all the appropriate in
 - Initialise a new Laravel project named appropriately.
 - Initial git commit to initialise tracked files.
 - Asset build definition through web pack, creating the base page template which houses assets and base structure, enable cache busting.
+- Ensure code written adheres to PSR-Symfony (1,2,4 inclusive).
 
 ## Part 1
 - Unit test for verifying loading of the page endpoint is successful and content is found for the box title.
