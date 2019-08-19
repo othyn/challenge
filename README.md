@@ -4,10 +4,14 @@ This is the repo for the specified code challenge. Not including keywords as to 
 ## Table of contents
 * [Code challenge](#codechallenge)
 * [Table of contents](#table-of-contents)
+* [Plan](#plan)
 * [Setup](#setup)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Development](#development)
+
+## Plan
+To see a complete plan of the project, there is a markdown plan writeup located in the [plan directory](/plan/PLAN.md).
 
 ## Setup
 The project runs using a per project installation of Homestead. [Instructions on installation and setup](https://laravel.com/docs/5.8/homestead), and more specifically the [per-project installation](https://laravel.com/docs/5.8/homestead#per-project-installation) are on Laravel's website, although I'll cover the step-by-step process below for getting this up and running for this project.
