@@ -14,7 +14,7 @@ class ShareSheetRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -38,6 +38,8 @@ class ShareSheetRequest extends FormRequest
      */
     public function persist()
     {
+        session()->flash('flash.success', 'Shared successfully!');
+
         return ShareSheet::create(
             $this->only([
                 'customer_name',
