@@ -24,3 +24,9 @@
 # Install Node.js v10.x
 #curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 #sudo apt-get install -y nodejs
+
+cd code
+
+echo 'Migrating database schema...'
+php artisan migrate:refresh
+# Migrate the databases - deleting all content and mapping the migrations a new
