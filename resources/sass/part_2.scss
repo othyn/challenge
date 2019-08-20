@@ -50,5 +50,9 @@ section#share-create {
 
     div.invalid-feedback {
         color: red;
+        margin: {
+            left: 10px;
+            top: 5px;
+        }
     }
 }
